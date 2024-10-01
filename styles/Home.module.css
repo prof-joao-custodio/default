@@ -1,10 +1,42 @@
+/* styles/Home.module.css */
 
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: #f1f1f1;
+}
+
+.button {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.button:first-child {
+  background-color: #25D366; /* Cor do WhatsApp */
+}
+
+.button:last-child {
+  background-color: #E1306C; /* Cor do Instagram */
+}
 
 .main {
-	padding: 2rem 0;
-	flex: 1;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f1f1f1;
 }
