@@ -1,24 +1,15 @@
 {
-	"name": "my-create-web3-dappvercel",
-	"version": "0.1.0",
-	"private": true,
+	"name": "professor-joao-custodio-campaign",
+	"version": "1.0.0",
+	"description": "Landing page for Professor João Custódio's 2024 political campaign",
 	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint",
-		"marketplace": "npx create-web3-dapp marketplace"
+	  "dev": "next dev",
+	  "build": "next build",
+	  "start": "next start"
 	},
 	"dependencies": {
-		"next": "13.1.2",
-		"react": "18.2.0",
-		"react-dom": "18.2.0",
-		"alchemy-sdk": "^2.6.2",
-		"@rainbow-me/rainbowkit": "^0.12.4",
-		"wagmi": "^0.12.6"
-	},
-	"devDependencies": {
-		"eslint": "8.36.0",
-		"eslint-config-next": "13.2.4"
+	  "next": "12.x",
+	  "react": "17.x",
+	  "react-dom": "17.x"
 	}
-}
+  }  

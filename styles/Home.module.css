@@ -2,41 +2,44 @@
 
 .header {
   display: flex;
-  justify-content: flex-end;
-  padding: 1rem;
-  background-color: #f1f1f1;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #15a4aa; /* Secondary color */
 }
 
 .button {
-  margin-left: 1rem;
+  background-color: #ffffff;
+  color: #e76930; /* Main color */
+  padding: 10px 20px;
   text-decoration: none;
-  color: #fff;
-  padding: 0.5rem 1rem;
   border-radius: 5px;
+  font-weight: bold;
 }
 
-.button:first-child {
-  background-color: #25D366; /* Cor do WhatsApp */
-}
-
-.button:last-child {
-  background-color: #E1306C; /* Cor do Instagram */
+.button:hover {
+  background-color: #e76930; /* Main color */
+  color: #ffffff;
 }
 
 .main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  min-height: 70vh;
+  justify-content: center;
+  padding: 50px;
 }
 
 .image {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
+  border-radius: 10px;
 }
 
 .footer {
+  background-color: #15a4aa; /* Secondary color */
+  color: #ffffff;
   text-align: center;
-  padding: 1rem;
-  background-color: #f1f1f1;
+  padding: 20px;
+  font-size: 0.9em;
 }

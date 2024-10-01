@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
-};
-
-module.exports = {
 	env: {
-	},
-};
-
-module.exports = nextConfig;
+	  // Add any environment variables here if necessary
+	}
+  };
+  
+  module.exports = nextConfig;  
