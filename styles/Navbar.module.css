@@ -1,17 +1,31 @@
-
+/* styles/Navbar.module.css */
 
 .navbar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	padding: 2rem 4rem 0.8rem 4rem;
-	gap: 2rem;
-	margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e76930; /* Adjust to match campaign colors */
+  color: #fff;
+  padding: 1rem;
 }
 
+.candidateInfo {
+  display: flex;
+  align-items: baseline;
+}
 
-.alchemy_logo{
-	width: 6rem;
-	cursor: pointer;
+.candidateName {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.candidateNumber {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.slogan {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-style: italic;
 }
