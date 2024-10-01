@@ -27,7 +27,7 @@ export default function Home() {
 
       {/* Conteúdo principal com a imagem */}
       <main className={styles.main}>
-        <img src="/campaign-image.jpg" alt="Imagem da campanha" className={styles.image} />
+        <img src="https://photos.fife.usercontent.google.com/pw/AP1GczO_mcaOrhuK94gA0hMYZB3hDPu0ALEAxNyit4OSWyavZ6SAKGkJ8EKl=w951-h951-s-no-gm?authuser=0" alt="VOTE NO PROFESSOR JOÃO - 70999" className={styles.image} />
       </main>
 
       {/* Rodapé com o texto especificado */}
